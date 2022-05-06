@@ -1,0 +1,72 @@
+.profile-container {
+    width: 66vw;
+    height: 86vh;
+    background-color: coral;
+    margin-left: 17vw;
+    margin-top: 7vh;
+    background-color: #121212;
+    
+    
+}
+
+body {
+    background-color: #0E0E0E; ;
+}
+
+
+
+
+h1 {
+    font-size: 60px;
+    padding-bottom: 5px;
+    border-color: transparent;
+    border-bottom: 1px;
+    border-style: solid;
+    border-bottom-color: #666666;
+    
+    
+}
+
+#flex-container {
+    display:flex ;
+    flex-direction: column;
+    
+    color: #FFFFFF;
+    background-color: brown;
+    height:72vh;
+    width:33vw ;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight :500; 
+    color: #666666;
+    border-color: #666666;
+    background-color:#0E0E0E;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: row;
+}
+#profile-info {
+    display: flex;
+    flex-direction: column;
+}
+#logo-strive {
+    margin-top:10px
+}
+
+#logo-strive img {
+    height: 120px;
+    border-radius:3px;
+}

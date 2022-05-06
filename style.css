@@ -1,0 +1,168 @@
+body {
+    background-color: #0E0E0E;
+}
+.content-con {
+    display: block;
+    width: 70vw;
+    margin-left: 15vw;
+    background-color: #141414;
+    color: rgb(247, 247, 247);
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 20px;
+    color:#E5E5E5;
+    font-weight:500;
+    
+}
+.nf-logo {
+    width: 100px;
+}
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    background-image: url("./media/avatar.png");
+    background-size: cover;
+}
+
+.triangle {
+    width: 0;
+height: 0;
+border-style: solid;
+border-width: 5px 5px 0 5px;
+border-color: #ffffff transparent transparent transparent;
+margin-left: 5px;
+}
+.al-center {
+    align-items: center;
+}
+
+.just-cont-end{
+    justify-content:flex-end;
+
+}
+
+.just-cont-sa {
+ justify-content: space-around;
+}
+.gap-10 {
+    gap: 10px;
+}
+
+.content-con a {
+    color: #7F7C82;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content-con a:hover {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+#kids-img {
+    height:30px ;
+    width: 30px;
+}
+
+#btn-drop {
+    border-radius: 0%;
+    border-style: solid;
+    color: aliceblue;
+    border-color: #7F7C82;;
+    background-color: #0E0E0E;
+    border-width: 1px;
+    padding: 4px;
+    border-radius: 2px;
+    margin-left: 30px;
+}
+#show-layout {
+    padding:0;
+}
+
+.display-icon {
+    height: 25px;
+    width: 30px;
+    background-color: transparent;
+    border: #7F7C82;;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+img {
+    width: 200px;
+}
+
+.n-show {
+    padding:0;
+    padding-left: 2px;
+    size:200px;
+    padding-bottom: 2px;
+}
+
+.social-container {
+    height: 200px;
+    justify-content: space-around;
+}
+
+.small-con {
+    
+    height:inherit;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.table-con {
+    color:#818181;
+    font-size: 10px;
+}
+
+tr {
+    height:20px
+}
+
+.service-code {
+    border: 1px;
+    border-style: solid;
+    border-color:#818181;
+    color:#818181;
+    width: max-content;
+    font-size: 10px;
+    padding-inline: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.net-inc {
+    font-size: 10px;
+    color:#818181;
+}
+
+@media (max-width:578px){
+    #tv-shows-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #shows-and-genres {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #show-layout {
+        justify-content: flex-start;
+        padding-top: 10px;
+    }
+    #btn-drop {
+        margin-left: 0;
+    }
+}
+
+.btn:focus {
+    box-shadow: none;
+}
